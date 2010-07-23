@@ -7,7 +7,7 @@ Automated Large Linear Analysis Node
 }
 \description{
 Builds on biglm package to automate fitting of linear models with data 
-that do not fit into R memory.  Also includes a simple forward step variable
+that do not fit into R memory.  Also includes a forward step variable
 selection routine.  None of the functions are bounded by the size of the
 training or validation datasets.  Requires biglm package.
 }
@@ -32,7 +32,7 @@ Alan Lee
 \email{alanlee@stanfordalumni.org}
 
 
-Maintainer: Who to complain to <yourfault@somewhere.net>
+Maintainer:
 Alan Lee
 \email{alanlee@stanfordalumni.org}
 }

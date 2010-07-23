@@ -4,7 +4,8 @@
 Generates Predictions and Fitting Statistics for biglm object
 }
 \description{
-Generates predictions on a validation file and returns data frame of results
+Generates prediction statistics on a validation file and returns data frame of results.
+For actual predictions, use the biglm predict function.
 }
 \usage{
 predictvbiglm(BaseModel, ValFileName, currentchunksize = -1, ResponseCol = 1, silent = TRUE, MemoryAllowed = 0.5, TestedRows = 1000, AdjFactor = 0.095)

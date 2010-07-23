@@ -26,7 +26,7 @@ may result.
 The training dataset that the BaseModel will be trained on.  Unlimited by size.
 }
   \item{ValDataSetFile}{
-The valadation dataset that the BaseModel will be validated on.  AIC, BIC, and MSE will
+The validation dataset that the BaseModel will be validated on.  AIC, BIC, and MSE will
 be calculated from this dataset to select variables.  Unlimited by size.
 }
   \item{ResponseCol}{

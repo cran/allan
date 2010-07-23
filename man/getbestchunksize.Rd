@@ -1,10 +1,10 @@
 \name{getbestchunksize}
 \alias{getbestchunksize}
 \title{
-Calculate Optimal Size of Each Chunk of Data whenb Fitting Models
+Calculate Optimal Size of Each Chunk of Data when Fitting Models
 }
 \description{
-Reads in a small portion of the data and measures amount of memory the 
+Reads in a small portion of the data and measures the amount of memory the 
 portion occupies in R and then calculates the best size for each chunk 
 based on available memory and additional overhead needed for calculations.
 }

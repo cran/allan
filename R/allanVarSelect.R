@@ -83,7 +83,8 @@ for (m in 1:length(VarsToBeAdded)) {
 #create new model with new var
 ptext <- parse(text=paste("update.formula(formula(CurrentModel), ~. ","+ ",VarsToBeAdded[m],")"))
 TempModelFormulaText <- ptext
-TempModelFormula<-capture.output(eval(ptext))
+#TempModelFormula<-capture.output(eval(ptext))
+TempModelFormula<-paste(deparse(eval(ptext)), collapse=" ")
 TempModelCall <- parse(text=paste("biglm(", TempModelFormula ," , ",OptionString ))
 #fit biglm
 TempModel<-fitvbiglm(eval(TempModelCall),TrnDataSetFile,currentchunksize=currentchunksize,silent=silent,MemoryAllowed=MemoryAllowed,TestedRows=TestedRows,AdjFactor=AdjFactor)
@@ -115,7 +116,8 @@ print("Criteria flag invalid.  Using AIC")
 
 #Change current model.  include last var added
 ptext <- parse(text=paste("update.formula(formula(CurrentModel), ~. ","+ ",VarsToBeAdded[VarToAdd],")"))
-UpdatedModelFormula <- capture.output(eval(ptext))
+#UpdatedModelFormula <- capture.output(eval(ptext))
+UpdatedModelFormula<-paste(deparse(eval(ptext)), collapse=" ")
 UpdatedModelCall <- parse(text=paste("biglm(", UpdatedModelFormula ," , ",OptionString ))
 CurrentModel <- eval(UpdatedModelCall)
 

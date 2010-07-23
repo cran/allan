@@ -1,0 +1,14 @@
+d477db8216f1b5ab129d24e68a060e3d *DESCRIPTION
+190dbc7110aa13816646d1cf475825fb *NAMESPACE
+a8722e4031b0bb7d4bf6b71ae081da92 *R/allanVarSelect.R
+958e7dd6d7b618882831152f8338cf48 *R/fitvbiglm.R
+74182aca358fc5fbc2e960dec1795f02 *R/getbestchunksize.R
+659665a0a3d37eb5a93da543bffa70fd *R/predictvbiglm.R
+26b69801d225ffceb8ede21949e7a5a5 *R/readinbigdata.R
+e33fb02f8b8ae8dea76b7ef277a92a04 *inst/extdata/SampleDataFile.csv
+1c56362a5308a4f89ccc2fae19dbf7d6 *man/allan-package.Rd
+6a43bbca680ad7a6bbac1d7295cb5f54 *man/allanVarSelect.Rd
+cff1109a8d9ae42cd8a04f5b2f6a5d6a *man/fitvbiglm.Rd
+affc9605adcbc981c3dbf451f7774634 *man/getbestchunksize.Rd
+2c3a10fc1243ff287b6c315055cb4d71 *man/predictvbiglm.Rd
+37f85010458f8dee1293e37a62fa9ddb *man/readinbigdata.Rd
